@@ -10,7 +10,12 @@ export default {
   name: 'app',
   data () {
     return {
-
+      products: [
+        {name: 'Pisang skin', price: 20},
+        {name: 'Bintang terang', price: 40},
+        {name: 'Kerang hijau', price: 60},
+        {name: 'Kerang merah', price: 80}
+      ]
     }
   }
 }
